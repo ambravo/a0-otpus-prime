@@ -2,9 +2,9 @@ package handlers
 
 import (
 	"fmt"
-	"github.com/ambravo/a0-telegram-bot/internal/config"
-	"github.com/ambravo/a0-telegram-bot/internal/telegram"
-	"github.com/ambravo/a0-telegram-bot/internal/utils"
+	"github.com/ambravo/a0-OTPus-prime/server/internal/config"
+	"github.com/ambravo/a0-OTPus-prime/server/internal/telegram"
+	"github.com/ambravo/a0-OTPus-prime/server/internal/utils"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )

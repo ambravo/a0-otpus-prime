@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/ambravo/a0-telegram-bot/internal/utils"
+	"github.com/ambravo/a0-OTPus-prime/server/internal/utils"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 	"io"

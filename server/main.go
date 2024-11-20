@@ -13,9 +13,9 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/ambravo/a0-OTPus-prime/server/internal/api/routes"
+	"github.com/ambravo/a0-OTPus-prime/server/internal/config"
 	"github.com/gin-gonic/gin"
-	"github.com/yourusername/a0-telegram-bot/internal/api/routes"
-	"github.com/yourusername/a0-telegram-bot/internal/config"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

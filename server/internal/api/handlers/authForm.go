@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ambravo/a0-telegram-bot/internal/assets"
-	"github.com/ambravo/a0-telegram-bot/internal/auth0"
-	"github.com/ambravo/a0-telegram-bot/internal/config"
-	"github.com/ambravo/a0-telegram-bot/internal/telegram"
-	"github.com/ambravo/a0-telegram-bot/internal/utils"
+	"github.com/ambravo/a0-OTPus-prime/server/internal/assets"
+	"github.com/ambravo/a0-OTPus-prime/server/internal/auth0"
+	"github.com/ambravo/a0-OTPus-prime/server/internal/config"
+	"github.com/ambravo/a0-OTPus-prime/server/internal/telegram"
+	"github.com/ambravo/a0-OTPus-prime/server/internal/utils"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )

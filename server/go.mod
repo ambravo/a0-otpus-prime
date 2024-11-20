@@ -1,4 +1,4 @@
-module github.com/ambravo/a0-telegram-bot
+module github.com/ambravo/a0-OTPus-prime/server
 
 go 1.23.3
 

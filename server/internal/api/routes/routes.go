@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"github.com/ambravo/a0-telegram-bot/internal/api/handlers"
-	"github.com/ambravo/a0-telegram-bot/internal/api/middleware"
-	"github.com/ambravo/a0-telegram-bot/internal/config"
+	"github.com/ambravo/a0-OTPus-prime/server/internal/api/handlers"
+	"github.com/ambravo/a0-OTPus-prime/server/internal/api/middleware"
+	"github.com/ambravo/a0-OTPus-prime/server/internal/config"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )
