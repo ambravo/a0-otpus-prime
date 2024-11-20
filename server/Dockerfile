@@ -14,7 +14,7 @@ RUN go mod download
 COPY . .
 
 # Build the application
-RUN CGO_ENABLED=0 GOOS=linux go build -o /app/bot cmd/server/main.go
+RUN CGO_ENABLED=0 GOOS=linux go build -o /app/bot main.go
 
 # Create final image
 FROM alpine:3.20.3

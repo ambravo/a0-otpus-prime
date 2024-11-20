@@ -4,7 +4,6 @@ package main
 
 import (
 	"context"
-	"embed"
 	"errors"
 	"fmt"
 	"net/http"
@@ -19,9 +18,6 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )
-
-//go:embed internal/assets/templates
-var templatesFS embed.FS
 
 func main() {
 	// Initialize logger based on environment

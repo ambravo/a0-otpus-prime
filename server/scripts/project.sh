@@ -9,7 +9,7 @@ function check_dependencies() {
 
 function build_docker() {
     echo "Building Docker image..."
-    docker build -t a0-telegram-bot .
+    docker buildx build --push -t ghcr.io/ambravo/ao-otpus-prime:latest .
 }
 
 function run_docker() {
