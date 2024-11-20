@@ -2,7 +2,10 @@
 
 A simple Go-based Telegram bot that integrates with Auth0 for handling OTP codes and managing initial configuration. The server component uses the Gin framework to process updates and requests, while a small React app provides a secure way for users to input and manage Auth0 credentials.
 
-You can test this project live using the Bot OTPus Prime in Telegram: [`@OTPus_Prime_BOT`.](https://t.me/OTPus_Prime_BOT?start=start)
+You can test this project live using the Bot OTPus Prime in Telegram: [`@OTPus_Prime_BOT`](https://t.me/OTPus_Prime_BOT?start=start)
+
+⚠️⚠️⚠️
+**Warning**: This bot will create and modify configurations in Auth0. It is intended for testing and sandbox environments only.
 
 ## Overview
 
