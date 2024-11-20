@@ -9,7 +9,7 @@ function check_dependencies() {
 
 function build_docker() {
     echo "Building Docker image..."
-    docker buildx build --push -t ghcr.io/ambravo/ao-otpus-prime:latest .
+    docker buildx build --push -t ghcr.io/ambravo/a0-otpus-prime:latest .
 }
 
 function run_docker() {
